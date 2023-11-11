@@ -1,8 +1,18 @@
 h1 {
-    color: red;
+    color: rgb(13, 110, 253);
     text-align: center;
 }
 
 #result {
     text-align: center;
+}
+
+button {
+    padding-top: 30em ;
+}
+
+.card {
+    width: 40em;
+    margin: auto;
+    background-color: rgb(224, 223, 223);
 }

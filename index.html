@@ -7,17 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="myInput">
-              <button class="btn btn-outline-success" type="submit" id="myBtn">Search</button>
-            </form>
-        </div>
-    </nav>
     
-    <h1>RESULTS</h1>
-    <div id="result"></div>
+    <h1 class="display-3">RESULTS</h1>
+    <div class="text-center">
+        <button class="btn btn-primary my-3" onClick="window.location.reload();">Search Again</button>
+    </div>
+    <div class="container">
+        <div class="card" id="result"></div>
+    </div>
+    
     
     
 
